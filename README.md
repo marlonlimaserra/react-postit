@@ -33,3 +33,10 @@ Modelo padrão da prop data `data`:
 	shadow:true // optional -> Leaves the postit with a slight shadow.
 }]
 ```
+
+### Dependencies
+
+- react-quill
+- react-draggable
+- re-resizable
+- react-color
