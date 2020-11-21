@@ -24,14 +24,12 @@ MIT
 Modelo padrão da prop data `data`:
 ```
 [{
-	id:'xa2',
-	value:"<p>My 2</p>",
-	backgroundColor:'#f0ec78',
-	teste:'',
-	position:{x:500,y:35},
-	size:{width:206,heigth:203},
-	radius:true,
-	shadow:true
+	id:'1', // required  -> Type string. Each postit must have a unique id.
+	value:"<p>My postit</p>", // required  -> Type string. By default, you can format the html.
+	backgroundColor:'#f0ec78', // required  -> Type string. Postit Background color.
+	position:{x:500,y:35}, // required  -> Type object. Object informing x and y position. (x,y type number)
+	size:{width:206,heigth:203}, // required  -> Type string. Object informing width and heigth position (width,heigth type number)
+	radius:true, // optional -> Leaves the postit with the rounded border.
+	shadow:true // optional -> Leaves the postit with a slight shadow.
 }]
-
 ```
