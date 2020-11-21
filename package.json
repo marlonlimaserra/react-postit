@@ -1,7 +1,16 @@
 {
-  "name": "myapp",
-  "version": "0.1.0",
+  "name": "react-postit",
+  "version": "1.0.0",
   "private": true,
+  "main":"index.js",
+  "description":"A simple postit that can be resized via one or more handles. You can also change the color, change the position.",
+  "keywords":["postit","post-it","react-postit","react-post-it"],
+  "author":"marlonlimaserra",
+  "license":"MIT",
+  "repository":{
+	"type":"git",
+	"url":"https://github.com/marlonlimaserra/react-postit"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
