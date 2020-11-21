@@ -1,6 +1,6 @@
 {
   "name": "react-postit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "index.js",
   "description": "A simple postit that can be resized via one or more handles. You can also change the color, change the position.",
